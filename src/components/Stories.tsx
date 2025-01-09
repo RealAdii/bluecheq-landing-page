@@ -52,7 +52,7 @@ const Stories = () => {
         {/* Header */}
         <div className="text-center">
           <h2 className="text-7xl font-normal leading-[1.2] tracking-tight text-[#0000EE] mb-4">
-            See what's possible with Bluecheq
+            Testimonials
           </h2>
           
           <div className="w-full h-px bg-gray-200 my-4" />

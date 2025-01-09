@@ -14,8 +14,8 @@ function App() {
       <Hero />
       <LogoScroll />
       <Features />
-      <Carousel />
       <Stories />
+      <Carousel />
       <Contact />
       <Footer />
     </div>

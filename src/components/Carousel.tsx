@@ -5,22 +5,22 @@ const slides = [
   {
     title: 'Instantaneous',
     subtitle: 'Only takes a few minutes.',
-    image: 'https://images.unsplash.com/photo-1621243804936-775306a8f2e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
-    cta: 'Fight fraud at scale',
+    image: '/1st.svg',
+    cta: 'Get the fastest verification',
     bgColor: 'bg-[#e6f7f7]'
   },
   {
     title: 'Cheaper',
     subtitle: 'SIgnificantly lower cost than any existing verification service.',
-    image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
-    cta: 'Onboard users faster',
+    image: '/2nd.svg',
+    cta: 'Get the cheapest solution',
     bgColor: 'bg-[#fff4cc]'
   },
   {
     title: 'Authentic.',
     subtitle: "Don't rely on scraping data, use our authentic verification solution.",
-    image: 'https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
-    cta: 'Move money safely',
+    image: '/3rd.svg',
+    cta: 'Get the most authentic solution',
     bgColor: 'bg-[#e6f0ff]'
   }
 ];
