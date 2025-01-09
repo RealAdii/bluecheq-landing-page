@@ -1,24 +1,21 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import LogoScroll from './components/LogoScroll';
-import Features from './components/Features';
-import Carousel from './components/Carousel';
-import Stories from './components/Stories';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { Routes, Route } from "react-router-dom";
+import BGCHome from "./screens/bgc";
+import { useEffect } from "react";
+
+function Home() {
+  useEffect(() => {
+    window.location.href = "/bgc";
+  }, []);
+
+  return <h1>Home Page</h1>;
+}
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <Hero />
-      <LogoScroll />
-      <Features />
-      <Stories />
-      <Carousel />
-      <Contact />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/bgc" element={<BGCHome />} />
+    </Routes>
   );
 }
 
