@@ -4,23 +4,19 @@ import { ArrowRight } from 'lucide-react';
 const Hero = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-52 pb-20 border-red-500 border-2">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-8 items-center">
         {/* Left Column - Text Content */}
-        <div className="space-y-5">
-          <h1 className="text-[6rem] font-normal leading-[1.1] tracking-tight text-gray-900">
-            Verify before<br />
-            you Hire.<br />
+        <div className="space-y-5 border-red-500 border-2 flex flex-col items-center">
+          <h1 className="text-[6rem] font-normal leading-[1.1] tracking-tight text-[#0000EE] text-center">
+            Verify before you hire.
           </h1>
-          <p className="text-[1.5rem] text-gray-600 max-w-lg font-normal leading-relaxed">
+          <p className="text-[1.5rem] text-gray-600 max-w-lg font-normal leading-relaxed text-center">
             Increase conversion, lower fraud, and grow revenue
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             <button className="group inline-flex items-center px-5 py-2.5 border border-black text-base font-medium rounded-full bg-black text-white hover:bg-white hover:text-black transition-colors duration-200">
               Talk to our team
               <ArrowRight className="ml-2 h-4 w-4" />
-            </button>
-            <button className="inline-flex items-center px-5 py-2.5 border border-gray-200 text-base font-medium rounded-full text-gray-900 bg-white hover:bg-gray-50">
-              Start building
             </button>
           </div>
         </div>

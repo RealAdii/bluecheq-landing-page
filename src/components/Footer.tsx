@@ -1,13 +1,12 @@
-import React from 'react';
-import { MapPin, Twitter, Instagram } from 'lucide-react';
+import { MapPin, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="bg-black text-white py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Use Cases */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h3 className="text-sm font-medium mb-6">Use Cases</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Personal finances</a></li>
@@ -18,17 +17,16 @@ const Footer = () => {
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Business finances</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Crypto</a></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Developers */}
           <div className="space-y-4">
             <h3 className="text-sm font-medium mb-6">Developers</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Quickstart</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">API documentation</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Libraries</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">GitHub</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Link Demo</a></li>
+              <li><a href="https://docs.reclaimprotocol.org/" className="text-gray-400 hover:text-white text-sm">SDK documentation</a></li>
+              <li><a href="https://github.com/reclaimprotocol" className="text-gray-400 hover:text-white text-sm">GitHub</a></li>
+              <li><a href="https://demo.reclaimprotocol.org" className="text-gray-400 hover:text-white text-sm">Link Demo</a></li>
             </ul>
           </div>
 
@@ -37,18 +35,18 @@ const Footer = () => {
             <h3 className="text-sm font-medium mb-6">About us</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Company</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Careers</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Legal</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Contact</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Partners</a></li>
+              {/* <li><a href="#" className="text-gray-400 hover:text-white text-sm">Partners</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Press</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Safety</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Legal</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Why Plaid</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Why Plaid</a></li> */}
             </ul>
           </div>
 
           {/* Resources */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h3 className="text-sm font-medium mb-6">Resources</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Pricing</a></li>
@@ -58,19 +56,19 @@ const Footer = () => {
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Annual conference</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Customer stories</a></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* For consumers */}
           <div className="space-y-4">
             <h3 className="text-sm font-medium mb-6">For consumers</h3>
             <ul className="space-y-3">
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">How it works</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Discover apps</a></li>
+              {/* <li><a href="#" className="text-gray-400 hover:text-white text-sm">Discover apps</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Trouble connecting?</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm">Portal</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Delete my data</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">End User Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm">FAQs</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white text-sm">Delete my data</a></li> */}
+              <li><a href="https://reclaimprotocol.notion.site/Privacy-Policy-Reclaim-Protocol-115275b816cb80ab94b8ca8616673658?pvs=4" className="text-gray-400 hover:text-white text-sm">Privacy Policy</a></li>
+              <li><a href="https://reclaimprotocol.notion.site/Terms-of-Service-Reclaim-Protocol-13c275b816cb80b1a5ade76c6f2532dd?pvs=4" className="text-gray-400 hover:text-white text-sm">Terms of Service</a></li>
             </ul>
           </div>
         </div>
@@ -87,7 +85,7 @@ const Footer = () => {
               <Twitter className="h-5 w-5" />
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <Instagram className="h-5 w-5" />
+              <Linkedin className="h-5 w-5" />
             </a>
           </div>
         </div>

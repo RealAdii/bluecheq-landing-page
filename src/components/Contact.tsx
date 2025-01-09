@@ -9,17 +9,10 @@ const Contact = () => {
           {/* Left Column - Image */}
           <div className="relative h-[600px] rounded-2xl overflow-hidden bg-gradient-to-br from-blue-400 to-cyan-300">
             <img
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80"
+              src="/form-bg.svg"
               alt="Contact us"
               className="w-full h-full object-cover mix-blend-overlay"
             />
-            <div className="absolute bottom-0 left-0 right-0 p-8">
-              <h2 className="text-5xl font-normal leading-[1.2] tracking-tight text-black">
-                More customers.<br />
-                Less fraudsters.<br />
-                Higher revenue.
-              </h2>
-            </div>
           </div>
 
           {/* Right Column - Form */}

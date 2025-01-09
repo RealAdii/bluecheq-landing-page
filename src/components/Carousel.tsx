@@ -3,22 +3,22 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 const slides = [
   {
-    title: 'Fight fraud at scale',
-    subtitle: 'Add sub copy',
+    title: 'Instantaneous',
+    subtitle: 'Only takes a few minutes.',
     image: 'https://images.unsplash.com/photo-1621243804936-775306a8f2e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
     cta: 'Fight fraud at scale',
     bgColor: 'bg-[#e6f7f7]'
   },
   {
-    title: 'Onboard users faster',
-    subtitle: 'Add sub copy',
+    title: 'Cheaper',
+    subtitle: 'SIgnificantly lower cost than any existing verification service.',
     image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
     cta: 'Onboard users faster',
     bgColor: 'bg-[#fff4cc]'
   },
   {
-    title: 'Move money safely',
-    subtitle: 'Add sub copy',
+    title: 'Authentic.',
+    subtitle: "Don't rely on scraping data, use our authentic verification solution.",
     image: 'https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80',
     cta: 'Move money safely',
     bgColor: 'bg-[#e6f0ff]'
@@ -41,9 +41,8 @@ const Carousel = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-base text-gray-600 mb-2">Sub copy</p>
-          <h2 className="text-7xl font-normal leading-[1.2] tracking-tight text-gray-900">
-            Super cool heading here
+          <h2 className="text-7xl font-normal leading-[1.2] tracking-tight text-[#0000EE]">
+            Seamless Verification
           </h2>
         </div>
 
