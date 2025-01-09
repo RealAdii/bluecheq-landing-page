@@ -13,22 +13,20 @@ const Navbar = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <button className="flex items-center space-x-1 text-gray-700 hover:text-gray-900 font-medium">
-              <span>Use cases</span>
-              <ChevronDown className="h-4 w-4" />
-            </button>
-            <a href="#pricing" className="text-gray-700 hover:text-gray-900 hover:text-gray-900 font-medium">
-              Documentation
+            <a href="https://reclaimprotocol.org/blog/" className="text-[#979797] hover:text-gray-900 font-medium">
+              Use cases
             </a>
-            <button className="flex items-center space-x-1 text-gray-700 hover:text-gray-900 font-medium">
-              <span>Blogs</span>
-              <ChevronDown className="h-4 w-4" />
-            </button>
+            <a href="https://reclaimprotocol.org/blog/" className="text-[#979797] hover:text-gray-900 font-medium">
+              Documentation
+            </a> 
+            <a href="https://docs.reclaimprotocol.org/" className="text-[#979797] hover:text-gray-900 font-medium">
+              Blogs
+            </a>
           </div>
 
           {/* Right side buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50">
+            <button className="group inline-flex items-center px-5 py-2.5 text-base font-medium rounded-sm bg-white border border-[#0000ee] text-[#0000ee] hover:bg-[#0000ee] hover:border hover:border-white hover:text-white transition-colors duration-200">
               Contact sales
               <ArrowRight className="ml-2 h-4 w-4" />
             </button>

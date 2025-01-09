@@ -17,7 +17,7 @@ const Contact = () => {
 
           {/* Right Column - Form */}
           <div className="flex flex-col justify-center lg:pl-12">
-            <h2 className="text-4xl font-normal leading-[1.2] tracking-tight text-gray-900 mb-12">
+            <h2 className="text-4xl font-normal leading-[1.2] tracking-tight text-[#0000EE] mb-12">
               Ready to get started?
             </h2>
             <form className="space-y-6">
@@ -82,7 +82,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg bg-black text-white hover:bg-gray-800 transition-colors duration-200"
+                className="w-full inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-lg bg-[#0000EE] text-white hover:bg-gray-800 transition-colors duration-200"
               >
                 Talk with our team
                 <ArrowRight className="ml-2 h-4 w-4" />

@@ -13,7 +13,7 @@ const Features = () => {
             <p className="text-lg text-gray-600 max-w-lg">
               Build faster, smarter, and simpler user experiences with only a few lines of code. All on a single dashboard.
             </p>
-            <button className="inline-flex items-center px-6 py-3 text-base font-medium rounded-full bg-black text-white hover:bg-gray-800 transition-colors duration-200">
+            <button className="inline-flex items-center px-6 py-3 text-base font-medium rounded-full bg-[#0000EE] text-white hover:bg-white hover:border hover:border-[#0000EE] hover:text-[#0000EE] transition-colors duration-200">
               <a className="flex items-center" href="https://docs.reclaimprotocol.org/">Read SDK docs <ArrowRight className="ml-2 h-4 w-4" /></a>
             </button>
           </div>

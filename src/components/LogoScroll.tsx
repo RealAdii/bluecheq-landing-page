@@ -5,7 +5,7 @@ const LogoScroll = () => {
     { url: 'https://logo.clearbit.com/rocketmortgage.com', alt: 'Rocket' },
     { url: 'https://logo.clearbit.com/sofi.com', alt: 'SoFi' },
     { url: 'https://logo.clearbit.com/shopify.com', alt: 'Shopify' },
-    { url: 'https://img.logo.dev/ycombinator.com', alt: 'Acorns' },
+    { url: '/y-combinator.svg', alt: 'YC' },
   ];
 
   // Double the logos array for seamless infinite scroll
@@ -16,9 +16,9 @@ const LogoScroll = () => {
       <div className="max-w-22xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative border-t">
           <div className="absolute -top-3 left-0 right-0 flex justify-center">
-            <span className="text-xl bg-white px-6 text-base text-gray-500">Trusted by</span>
+            <span className="text-xl bg-white px-6 text-gray-500">Trusted by</span>
           </div>
-          <div className="overflow-hidden py-8">
+          <div className="overflow-hidden py-8 mt-10">
             <div className="flex animate-scroll space-x-16">
               {scrollLogos.map((logo, index) => (
                 <div
@@ -28,7 +28,7 @@ const LogoScroll = () => {
                   <img
                     src={logo.url}
                     alt={logo.alt}
-                    className="max-h-10 w-auto grayscale opacity-70 hover:opacity-100 transition-opacity duration-200"
+                    className="max-h-20 w-auto  hover:opacity-100 transition-opacity duration-200"
                   />
                 </div>
               ))}
@@ -36,6 +36,7 @@ const LogoScroll = () => {
           </div>
         </div>
       </div>
+      <hr className="border-t border-gray-200" />
     </div>
   );
 };

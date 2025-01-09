@@ -51,7 +51,7 @@ const Stories = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center">
-          <h2 className="text-7xl font-normal leading-[1.2] tracking-tight text-gray-900 mb-4">
+          <h2 className="text-7xl font-normal leading-[1.2] tracking-tight text-[#0000EE] mb-4">
             See what's possible with Bluecheq
           </h2>
           
@@ -65,7 +65,7 @@ const Stories = () => {
                 onClick={() => setActiveCategory(category)}
                 className={`px-6 py-2 rounded-full border text-sm font-medium transition-colors duration-200 ${
                   activeCategory === category
-                    ? 'bg-black text-white border-black'
+                    ? 'bg-[#0000EE] text-white hover:bg-white hover:border hover:border-[#0000EE] hover:text-[#0000EE]'
                     : 'bg-white text-gray-600 border-gray-200 hover:border-gray-300'
                 }`}
               >

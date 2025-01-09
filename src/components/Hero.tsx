@@ -1,47 +1,52 @@
-import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-52 pb-20 border-red-500 border-2">
-      <div className="grid grid-cols-1 md:grid-cols-1 gap-8 items-center">
-        {/* Left Column - Text Content */}
-        <div className="space-y-5 border-red-500 border-2 flex flex-col items-center">
-          <h1 className="text-[6rem] font-normal leading-[1.1] tracking-tight text-[#0000EE] text-center">
-            Verify before you hire.
-          </h1>
-          <p className="text-[1.5rem] text-gray-600 max-w-lg font-normal leading-relaxed text-center">
-            Increase conversion, lower fraud, and grow revenue
-          </p>
-          <div className="flex flex-wrap gap-4 pt-2">
-            <button className="group inline-flex items-center px-5 py-2.5 border border-black text-base font-medium rounded-full bg-black text-white hover:bg-white hover:text-black transition-colors duration-200">
-              Talk to our team
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </button>
-          </div>
-        </div>
+    <div
+      className="relative max-w-full px-4 sm:px-6 lg:px-8 pt-32 pb-20 overflow-hidden"
+    >
+      {/* Radial Gradients */}
+      <div
+        className="absolute top-0 left-0 h-[300px] w-[300px] rounded-full"
+        style={{
+          background: "radial-gradient(circle, #0000EE 0%, #D3D3FF 64%, #FFFFFF 100%)",
+        }}
+      ></div>
+      <div
+        className="absolute bottom-0 right-[-40px] h-[300px] w-[300px] rounded-full"
+        style={{
+          background: "radial-gradient(circle, #0000EE 0%, #D3D3FF 64%, #FFFFFF 100%)",
+        }}
+      ></div>
 
-        {/* Right Column - iPhone Mockup */}
-        <div className="relative h-[450px] w-full max-w-[220px] mx-auto md:mr-0">
-          <div className="absolute inset-0 bg-black rounded-[2.5rem] p-[3px] shadow-xl">
-            <div className="relative h-full w-full bg-gray-800 rounded-[2.3rem] overflow-hidden">
-              {/* Status Bar */}
-              <div className="absolute top-0 left-0 right-0 h-6 bg-black flex items-center px-5 text-xs text-white">
-                <span className="flex-1">9:41</span>
-                <div className="flex items-center gap-1">
-                  <div className="h-2 w-2.5 bg-white rounded-sm"></div>
-                  <div className="h-2 w-2.5 bg-white rounded-sm"></div>
-                  <div className="h-2 w-2.5 bg-white rounded-sm"></div>
-                  <div className="h-2 w-2.5 bg-white rounded-sm"></div>
-                </div>
-              </div>
-              {/* Video Placeholder */}
-              <div className="h-full w-full bg-white flex items-center justify-center text-gray-400 text-sm p-4 text-center">
-                Video Demo
-                <br />
-                Coming Soon
-              </div>
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8 items-center">
+          {/* Left Column - Text Content */}
+          <div className="space-y-5 flex flex-col items-center">
+            <h1 className="text-[6rem] font-normal leading-[1.1] text-[#0000EE] text-center tracking-normal">
+              Verify before you hire.
+            </h1>
+
+            <div className="flex flex-wrap gap-4 pt-2">
+              <button className="group inline-flex items-center px-10 py-4 text-lg rounded-full bg-[#0000EE] text-white hover:bg-white hover:border hover:border-[#0000EE] hover:text-[#0000EE] transition-colors duration-200">
+                Talk to our team
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </button>
             </div>
+          </div>
+
+          {/* Right Column - iPhone Mockup */}
+          <div className="relative h-[500px] w-[800px] mx-auto">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/WXCduLA95jo"
+              title="Reclaim Protocol Dev Tool V2 Tutorial"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>
