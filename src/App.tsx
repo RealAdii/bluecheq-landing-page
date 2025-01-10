@@ -3,9 +3,9 @@ import BGCHome from "./screens/bgc";
 import { useEffect } from "react";
 
 function Home() {
-  useEffect(() => {
-    window.location.href = "/bgc";
-  }, []);
+  // useEffect(() => {
+  //   window.location.href = "/bgc";
+  // }, []);
 
   return <h1>Home Page</h1>;
 }
